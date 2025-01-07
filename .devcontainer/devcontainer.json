@@ -9,8 +9,9 @@
 		}
 	},
 	"extensions": [
-		"GitHub.github-vscode-theme",
-		"ms-python.python"
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"ms-toolsai.jupyter"
 	],
 	"settings": { 
 		"python.defaultInterpreterPath": "/usr/local/bin/python",

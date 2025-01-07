@@ -8,6 +8,10 @@
 			"NODE_VERSION": "lts/*"
 		}
 	},
+	"extensions": [
+		"GitHub.github-vscode-theme",
+		"ms-python.python"
+	],
 	"settings": { 
 		"python.defaultInterpreterPath": "/usr/local/bin/python",
 		"python.linting.enabled": true,
@@ -23,11 +27,6 @@
 		"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
 		"python.linting.pylintArgs": ["--disable=C0111"]
 	},
-	"extensions": [
-		"ms-python.python",
-		"ms-python.vscode-pylance",
-		"ms-toolsai.jupyter"
-	],
 	"remoteUser": "vscode",
 	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
 	"postCreateCommand": "sh .devcontainer/startup.sh"

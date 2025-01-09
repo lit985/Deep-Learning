@@ -1,7 +1,7 @@
 requests>=2.28
+numpy
 tensorflow
 keras
-numpy
 matplotlib
 seaborn
-sklearn
+scikit-learn

@@ -18,7 +18,22 @@
   "screencastMode.onlyKeyboardShortcuts": true,
   "terminal.integrated.fontSize": 18,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "GitHub Light Colorblind (Beta)",
   "workbench.fontAliasing": "antialiased",
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "jupyter.kernels.excludePythonEnvironments": [
+    "~/.pyenv/versions/3.10.10/bin/python",
+    "/opt/homebrew/bin/python3.10",
+    "~/.pyenv/versions/mambaforge/bin/python",
+    "~/.pyenv/versions/3.10.2/bin/python",
+    "~/.pyenv/versions/3.11.2/bin/python",
+    "/opt/homebrew/bin/python3",
+    "~/.pyenv/versions/3.11.7/bin/python",
+    "/opt/homebrew/bin/python3.12",
+    "~/.pyenv/versions/3.7.16/bin/python",
+    "~/.pyenv/versions/3.8.16/bin/python",
+    "~/.pyenv/versions/3.9.16/bin/python",
+    "/opt/homebrew/bin/python3.9",
+    "/usr/bin/python3"
+  ]
 }
